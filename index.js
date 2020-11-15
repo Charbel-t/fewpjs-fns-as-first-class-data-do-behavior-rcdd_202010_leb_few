@@ -10,7 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(w){
+/*function greet(w){
   if(w < '12:00') return 'Good Morning';
   else if(w >'17:00') return 'Good Evening';
   else return 'Good Afternoon';
@@ -18,6 +18,25 @@ function greet(w){
 
 /* Write your implementation of displayMessage() */
 
-function displayMessage(l){
+/*function displayMessage(l){
   document.querySelector('h1').innerHTML = l;
+}*/
+
+function displayMessage(msg) {
+  document.getElementById("greeting").innerText = msg;
 }
+
+function greet(timeStr) {
+  /* It would be a good idea to make sure hour isn't less than 0 or greater
+   * than 24...perhaps "throwing an Error" if one of these impossible cases
+   * happens.
+   *
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Throwing_a_generic_error
+   *
+   */
+  const hour = parseInt(timeStr, 10);
+  if ( hour < 12) return "Good Morning"
+  if ( hour > 17) return "Good Evening"
+  return "Good Afternoon"
+}
+
