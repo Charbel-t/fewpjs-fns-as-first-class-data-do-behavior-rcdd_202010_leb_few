@@ -10,11 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-/*function greet(w){
-  if(w < '12:00') return 'Good Morning';
-  else if(w >'17:00') return 'Good Evening';
-  else return 'Good Afternoon';
-}
+
 
 /* Write your implementation of displayMessage() */
 
