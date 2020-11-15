@@ -19,5 +19,5 @@ function greet(w){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(l){
-  document.querySelector('h1')
+  document.querySelector('h1').innerHTML = l;
 }
