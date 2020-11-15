@@ -10,7 +10,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(){
+function greet(w){
+  if(w<'12pm') return
   
 }
 
