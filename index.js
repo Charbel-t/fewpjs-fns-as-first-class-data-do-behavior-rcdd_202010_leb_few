@@ -16,8 +16,8 @@ function greet(w){
   else return 'Good Afternoon';
 }
 
-
-
-
-
 /* Write your implementation of displayMessage() */
+
+function displayMessage(l){
+  
+}
